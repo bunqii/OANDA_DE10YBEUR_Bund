@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "DE10YB_EUR",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_DE10YBEUR_Bund_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_DE10YBEUR_Bund_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2544,
+  "first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 121.079,
+    "high": 121.509,
+    "low": 120.929,
+    "close": 121.348,
+    "volume": 5430
+  },
+  "last_candle": {
+    "time": 1577656800,
+    "Time": "2019-12-29T22:00:00.000000000Z",
+    "open": 170.305,
+    "high": 170.384,
+    "low": 169.142,
+    "close": 169.562,
+    "volume": 14751
+  },
+  "csv_file": "OANDA_DE10YBEUR_Bund_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2544,
+  "csv_first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 121.079,
+    "high": 121.509,
+    "low": 120.929,
+    "close": 121.348,
+    "volume": 5430
+  },
+  "csv_last_candle": {
+    "time": 1577656800,
+    "Time": "2019-12-29T22:00:00.000000000Z",
+    "open": 170.305,
+    "high": 170.384,
+    "low": 169.142,
+    "close": 169.562,
+    "volume": 14751
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:57:54.000000000Z",
+  "generated_at": "2026-10-16T02:57:54.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-03-06T22:00:00Z",
+        "to": "2016-11-12T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-11-12T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
