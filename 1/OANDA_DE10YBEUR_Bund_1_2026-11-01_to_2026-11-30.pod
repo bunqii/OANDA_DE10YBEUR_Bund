@@ -6,7 +6,7 @@
   "chunk_end": "2026-11-30",
   "parquet_file": "OANDA_DE10YBEUR_Bund_1_2026-11-01_to_2026-11-30.parquet",
   "data_file": "OANDA_DE10YBEUR_Bund_1_2026-11-01_to_2026-11-30.parquet",
-  "row_count": 3766,
+  "row_count": 5061,
   "first_candle": {
     "time": 1793578500,
     "Time": "2026-11-02T00:15:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 1
   },
   "last_candle": {
-    "time": 1793863020,
-    "Time": "2026-11-05T07:17:00.000000000Z",
-    "open": 123.366,
-    "high": 123.366,
-    "low": 123.356,
-    "close": 123.356,
-    "volume": 8
+    "time": 1793956020,
+    "Time": "2026-11-06T09:07:00.000000000Z",
+    "open": 123.688,
+    "high": 123.698,
+    "low": 123.668,
+    "close": 123.678,
+    "volume": 10
   },
   "csv_file": "OANDA_DE10YBEUR_Bund_1_2026-11-01_to_2026-11-30.parquet",
-  "csv_row_count": 3766,
+  "csv_row_count": 5061,
   "csv_first_candle": {
     "time": 1793578500,
     "Time": "2026-11-02T00:15:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 1
   },
   "csv_last_candle": {
-    "time": 1793863020,
-    "Time": "2026-11-05T07:17:00.000000000Z",
-    "open": 123.366,
-    "high": 123.366,
-    "low": 123.356,
-    "close": 123.356,
-    "volume": 8
+    "time": 1793956020,
+    "Time": "2026-11-06T09:07:00.000000000Z",
+    "open": 123.688,
+    "high": 123.698,
+    "low": 123.668,
+    "close": 123.678,
+    "volume": 10
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-11-05T07:18:01.000000000Z",
-  "generated_at": "2026-11-05T07:18:01.000000000Z",
+  "verified_at": "2026-11-06T09:08:14.000000000Z",
+  "generated_at": "2026-11-06T09:08:14.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
@@ -55,8 +55,8 @@
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-11-03T08:23:00Z",
-        "to": "2026-11-05T07:18:00Z",
+        "from": "2026-11-05T07:12:00Z",
+        "to": "2026-11-06T09:08:00Z",
         "code": 200,
         "msg": "OK"
       }
